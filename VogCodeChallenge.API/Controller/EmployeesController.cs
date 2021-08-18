@@ -25,14 +25,26 @@ namespace VogCodeChallenge.API.Controller
         }
 
         [HttpGet]
-        [Route("api/[Controller]/[action]")]
-        [ActionName("GetAll")]
+        [Route("api/[Controller]")]
+        //[ActionName("GetAll")]
         public IEnumerable<Employees> GetAll()
         {
             return emplst;
         }
 
-       
+        [HttpGet("{departmentId}")]
+        [Route("api/[action]")]
+        [ActionName("employees/department/{departmentId}")]
+        public Employees GetByDepartment(int departmentId)
+        {
+            var emp = emplst.Where(e => e.DepartmentId == departmentId).FirstOrDefault();
+            if (emp == null)
+            {
+                return null;
+            }
+            return emp;
+        }
+
         [HttpGet]
         [Route("api/[Controller]/[action]")]
         //[ActionName("ListAll")]
