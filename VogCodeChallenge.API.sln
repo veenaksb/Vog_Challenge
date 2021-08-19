@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{4E521E59-F255-4D3D-B969-051293DC61E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VogCodeChallenge.API", "VogCodeChallenge.API\VogCodeChallenge.API.csproj", "{4E521E59-F255-4D3D-B969-051293DC61E8}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{30DFD6FB-679D-4816-BC50-D1A1DA852D7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A2B64C22-8E18-4631-B263-2E621227E3C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSLambda1", "AWSLambda1\AWSLambda1.csproj", "{CC171A0D-433A-4F2C-87C8-EBE90AEDCCFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{30DFD6FB-679D-4816-BC50-D1A1DA852D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30DFD6FB-679D-4816-BC50-D1A1DA852D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30DFD6FB-679D-4816-BC50-D1A1DA852D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2B64C22-8E18-4631-B263-2E621227E3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B64C22-8E18-4631-B263-2E621227E3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B64C22-8E18-4631-B263-2E621227E3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B64C22-8E18-4631-B263-2E621227E3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC171A0D-433A-4F2C-87C8-EBE90AEDCCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC171A0D-433A-4F2C-87C8-EBE90AEDCCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC171A0D-433A-4F2C-87C8-EBE90AEDCCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC171A0D-433A-4F2C-87C8-EBE90AEDCCFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
